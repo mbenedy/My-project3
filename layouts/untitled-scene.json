@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6455105703311498,
+    "zoomFactor": 0.5117784035210201,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,8 +32,8 @@
       "name": "Platform",
       "persistentUuid": "88de8a7d-1e26-45cb-9393-16dd21355a33",
       "width": 0,
-      "x": 49,
-      "y": 195,
+      "x": 54,
+      "y": 162,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -47,8 +47,8 @@
       "name": "Platform",
       "persistentUuid": "a7587098-bb51-416b-836d-0c8765a1f523",
       "width": 0,
-      "x": 178,
-      "y": 229,
+      "x": 183,
+      "y": 196,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -62,24 +62,9 @@
       "name": "Platform",
       "persistentUuid": "72f4e348-626c-44f1-965c-88be6ba05792",
       "width": 0,
-      "x": 309,
-      "y": 166,
+      "x": 314,
+      "y": 133,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Player",
-      "persistentUuid": "c2f1f4cf-12d3-477f-b5b2-c3b8af9a7a1a",
-      "width": 0,
-      "x": 171,
-      "y": 199,
-      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -92,8 +77,8 @@
       "name": "Platform",
       "persistentUuid": "f77d9a2a-52c8-409e-b30f-458ab673b6e3",
       "width": 0,
-      "x": 371,
-      "y": 220,
+      "x": 376,
+      "y": 187,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -107,8 +92,8 @@
       "name": "Platform",
       "persistentUuid": "73d7ea50-16ec-4e89-a435-65214f46e134",
       "width": 0,
-      "x": 191,
-      "y": 140,
+      "x": 196,
+      "y": 107,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -122,8 +107,8 @@
       "name": "Platform",
       "persistentUuid": "3be635f8-0c70-4058-bc1e-25c186a4477a",
       "width": 0,
-      "x": 128,
-      "y": 120,
+      "x": 133,
+      "y": 87,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -137,8 +122,8 @@
       "name": "Platform",
       "persistentUuid": "b5d4bcfe-ab83-4f14-97d8-c40e3e96f57a",
       "width": 0,
-      "x": 266,
-      "y": 58,
+      "x": 271,
+      "y": 25,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -152,25 +137,9 @@
       "name": "Platform",
       "persistentUuid": "2a18e478-7de4-430a-aa8d-cbada034413c",
       "width": 0,
-      "x": 359,
-      "y": 54,
+      "x": 364,
+      "y": 21,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 68,
-      "layer": "Layer",
-      "name": "Waterfall",
-      "persistentUuid": "b15698ab-a1aa-4ea0-8662-6673e2c448b5",
-      "width": 16,
-      "x": 196,
-      "y": 161,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -205,6 +174,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 87,
+      "layer": "waterfall",
+      "name": "Waterfall",
+      "persistentUuid": "497c5df9-4949-48a0-b21a-ec595df82074",
+      "width": 32,
+      "x": 315,
+      "y": 43,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 286,
+      "layer": "Layer",
+      "name": "NewTiledSprite",
+      "persistentUuid": "6ffbfbf2-924e-4351-83a5-28de214f07d1",
+      "width": 501,
+      "x": -1,
+      "y": -1,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 185,
+      "layer": "waterfall",
+      "name": "water",
+      "persistentUuid": "291c6687-800b-4ba3-9e5c-3139b35d871c",
+      "width": 549,
+      "x": -36,
+      "y": 189,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -218,10 +235,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "Jumpthru",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "Jumpthru",
           "yGrabOffset": 0
         }
       ],
@@ -293,24 +310,39 @@
       "effects": [],
       "behaviors": [
         {
-          "acceleration": 1500,
-          "canGoDownFromJumpthru": true,
-          "canGrabPlatforms": false,
-          "canGrabWithoutMoving": true,
+          "canGoDownFromJumpthru": false,
+          "canGrabWithoutMoving": false,
           "deceleration": 1500,
+          "jumpSustainTime": 0.5,
+          "maxFallingSpeed": 120,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "yGrabOffset": 0,
+          "acceleration": 1500,
+          "canGrabPlatforms": false,
           "gravity": 300,
           "ignoreDefaultControls": true,
           "jumpSpeed": 100,
-          "jumpSustainTime": 0.5,
           "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 120,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
+          "xGrabTolerance": 10
+        },
+        {
+          "acceleration": 300,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 300,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "name": "TopDownMovement",
+          "rotateObject": false,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "viewpoint": "TopDown"
         }
       ],
       "animations": [
@@ -324,7 +356,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player\\main\\losos_sprite_idle.png",
+                  "image": "assets\\player\\main\\losos_sprite_idle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -360,7 +392,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player\\main\\losos_sprite_idle2.png",
+                  "image": "assets\\player\\main\\losos_sprite_idle2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -408,7 +440,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player\\main\\losos_sprite_swim.png",
+                  "image": "assets\\player\\main\\losos_sprite_swim.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -444,7 +476,439 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "player\\main\\losos_sprite_swim2.png",
+                  "image": "assets\\player\\main\\losos_sprite_swim2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "turn left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sad",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_flail1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_flail2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\Losos_swim_up1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\Losos_swim_up2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\Losos_swim_up3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\Losos_swim_up4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -495,10 +959,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": false,
           "name": "Platform",
-          "platformType": "Ladder",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "Ladder",
           "yGrabOffset": 0
         }
       ]
@@ -523,7 +987,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Sprite-0001.png",
+                  "image": "assets\\screen\\Sprite-0001.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -681,6 +1145,28 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "assets\\enviro\\tlo_1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "water",
+      "texture": "111.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -693,6 +1179,9 @@
         "objectName": "Player"
       },
       {
+        "objectName": "water"
+      },
+      {
         "objectName": "Waterfall"
       },
       {
@@ -700,6 +1189,9 @@
       },
       {
         "objectName": "button"
+      },
+      {
+        "objectName": "NewTiledSprite"
       }
     ]
   },
@@ -713,6 +1205,33 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Player",
+                "180",
+                "170",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -759,18 +1278,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "PlatformBehavior::IsObjectOnGivenFloor"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "Platform",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "KeyPressed"
@@ -858,15 +1365,61 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                    "inverted": true,
+                    "value": "CollisionNP"
                   },
                   "parameters": [
                     "Player",
-                    "PlatformerObject"
+                    "Waterfall",
+                    "",
+                    "",
+                    ""
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"sad\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Waterfall",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"up\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -959,7 +1512,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "waterfall",
+      "name": "woda",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -972,7 +1525,7 @@
               },
               "parameters": [
                 "Player",
-                "Waterfall",
+                "water",
                 "",
                 "",
                 ""
@@ -982,11 +1535,22 @@
           "actions": [
             {
               "type": {
-                "value": "PlatformBehavior::SimulateReleaseLadderKey"
+                "value": "ActivateBehavior"
               },
               "parameters": [
                 "Player",
-                "PlatformerObject"
+                "PlatformerObject",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "yes"
               ]
             }
           ]
@@ -996,11 +1560,12 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
                 "value": "CollisionNP"
               },
               "parameters": [
                 "Player",
-                "Waterfall",
+                "water",
                 "",
                 "",
                 ""
@@ -1010,11 +1575,22 @@
           "actions": [
             {
               "type": {
-                "value": "PlatformBehavior::PlatformerObjectBehavior::AbortJump"
+                "value": "ActivateBehavior"
               },
               "parameters": [
                 "Player",
-                "PlatformerObject"
+                "PlatformerObject",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "TopDownMovement",
+                "no"
               ]
             }
           ]
@@ -1087,140 +1663,18 @@
           "actions": [
             {
               "type": {
-                "value": "ShowLayer"
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"death screen\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ObjectVariableAsBoolean"
-              },
-              "parameters": [
-                "Player",
-                "Dead",
-                "False"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"death screen\""
+                "\"death\"",
+                ""
               ]
             }
           ]
         }
       ],
       "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Buttons",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "button",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "button",
-            "Animation",
-            "=",
-            "\"1\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "ButtonStates::ButtonFSM::IsClicked"
-          },
-          "parameters": [
-            "button",
-            "ButtonFSM",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetObjectVariableAsBoolean"
-          },
-          "parameters": [
-            "Player",
-            "Dead",
-            "False"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "button",
-            "",
-            "yes",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "button",
-            "Animation",
-            "=",
-            "\"2\""
-          ]
-        }
-      ]
     }
   ],
   "layers": [
@@ -1235,7 +1689,40 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "death screen",
+      "name": "Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "waterfall",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -1312,9 +1799,9 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Layer",
+      "name": "death screen",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -1371,6 +1858,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }

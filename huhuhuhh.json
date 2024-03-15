@@ -144,6 +144,168 @@
         "name": "Sprite-0001.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_sprite_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_sprite_idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_sprite_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_sprite_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_sprite_swim.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_sprite_swim.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_sprite_swim2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_sprite_swim2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/Sprite-0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\Sprite-0001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_sprite_turn_left1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_sprite_turn_left1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_sprite_turn_left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_sprite_turn_left2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_sprite_turn_left3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_sprite_turn_left3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_sprite_turn_left4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_sprite_turn_left4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_sprite_turn_left5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_sprite_turn_left5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_flail1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_flail1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/losos_flail2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\losos_flail2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/Losos_swim_up1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\Losos_swim_up1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/Losos_swim_up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\Losos_swim_up2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/Losos_swim_up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\Losos_swim_up3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/main/Losos_swim_up4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\main\\Losos_swim_up4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/tlo_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\tlo_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/main_menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\main_menu.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -158,10 +320,26 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/death"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/behaviorremapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/buttonstates"

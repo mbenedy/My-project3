@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8993607583666775,
+    "zoomFactor": 1.1726229638177845,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -140,22 +140,6 @@
       "x": 364,
       "y": 21,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 286,
-      "layer": "Tło",
-      "name": "NewTiledSprite",
-      "persistentUuid": "6ffbfbf2-924e-4351-83a5-28de214f07d1",
-      "width": 501,
-      "x": -11,
-      "y": -8,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -569,6 +553,51 @@
       "x": 307,
       "y": 75,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Tło",
+      "name": "NewTiledSprite2",
+      "persistentUuid": "60e59bd6-bc75-4a0a-8bcf-18743c1927f3",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "2tło",
+      "name": "NewTiledSprite3",
+      "persistentUuid": "a9ede8a3-98f9-46da-932f-4792f947b346",
+      "width": 0,
+      "x": 1,
+      "y": -1,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "3tło",
+      "name": "NewTiledSprite4",
+      "persistentUuid": "f606f774-eae8-414d-b8ca-58ada1945067",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1484,17 +1513,6 @@
     {
       "assetStoreId": "",
       "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "assets\\enviro\\tlo_1.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "height": 32,
       "name": "water",
       "texture": "111.png",
       "type": "TiledSpriteObject::TiledSprite",
@@ -1802,6 +1820,39 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 270,
+      "name": "NewTiledSprite2",
+      "texture": "assets\\enviro\\backgrounds\\backgraund.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 480,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 270,
+      "name": "NewTiledSprite3",
+      "texture": "assets\\enviro\\backgrounds\\second_plan.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 480,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 270,
+      "name": "NewTiledSprite4",
+      "texture": "assets\\enviro\\backgrounds\\foreground.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 380,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1826,9 +1877,6 @@
         "objectName": "button"
       },
       {
-        "objectName": "NewTiledSprite"
-      },
-      {
         "objectName": "NewVideo"
       },
       {
@@ -1839,6 +1887,15 @@
       },
       {
         "objectName": "triggerbox"
+      },
+      {
+        "objectName": "NewTiledSprite2"
+      },
+      {
+        "objectName": "NewTiledSprite3"
+      },
+      {
+        "objectName": "NewTiledSprite4"
       }
     ]
   },
@@ -1976,13 +2033,25 @@
           "actions": [
             {
               "type": {
-                "value": "CentreCamera"
+                "value": "SetCameraCenterX"
               },
               "parameters": [
                 "",
-                "Player",
+                "=",
+                "Player.X()",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
                 "",
+                "=",
+                "Player.X()",
+                "\"waterfall\"",
                 ""
               ]
             }
@@ -1994,13 +2063,25 @@
           "actions": [
             {
               "type": {
-                "value": "CentreCamera"
+                "value": "SetCameraCenterX"
               },
               "parameters": [
                 "",
-                "Player",
+                "=",
+                "Player.X()*0.3",
+                "\"2tło\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
                 "",
-                "\"waterfall\"",
+                "=",
+                "Player.X()*0.5",
+                "\"3tło\"",
                 ""
               ]
             }
@@ -2014,6 +2095,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2686,6 +2768,72 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
+      "name": "2tło",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "3tło",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
       "name": "waterfall",
       "renderingType": "",
       "visibility": true,
@@ -2765,7 +2913,7 @@
       "isLocked": false,
       "name": "cutscene",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {

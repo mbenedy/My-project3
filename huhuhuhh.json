@@ -421,6 +421,33 @@
         "name": "assets\\screen\\guit2.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/backgrounds/backgraund.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\backgrounds\\backgraund.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/backgrounds/second_plan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\backgrounds\\second_plan.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/backgrounds/foreground.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\backgrounds\\foreground.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

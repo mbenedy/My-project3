@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.40575189059439404,
+    "zoomFactor": 0.7876290101673991,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1037,9 +1037,9 @@
       "layer": "waterfall",
       "name": "NewSprite9",
       "persistentUuid": "b02eb65e-a208-42b9-9a56-e229f8d08dc8",
-      "width": 128,
-      "x": 204,
-      "y": -45,
+      "width": 159,
+      "x": 188,
+      "y": -29,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -1908,8 +1908,8 @@
       "name": "NewSprite8",
       "persistentUuid": "20eb6baa-bba9-416a-a21d-49c1737a6506",
       "width": 32,
-      "x": 224,
-      "y": 463,
+      "x": 125,
+      "y": 550,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -4995,9 +4995,9 @@
       "layer": "waterfall",
       "name": "NewSprite9",
       "persistentUuid": "ed5b1fe7-9eaa-4ae3-9a8f-0c3c12b52fef",
-      "width": 125,
-      "x": 860,
-      "y": 229,
+      "width": 130,
+      "x": 858,
+      "y": 232,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -7652,8 +7652,8 @@
       "name": "rockss",
       "persistentUuid": "a2d146b2-4e02-4873-8af8-563ad69b75d3",
       "width": 143,
-      "x": 1135,
-      "y": 15,
+      "x": 1137,
+      "y": 9,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -8099,8 +8099,8 @@
       "name": "bgr",
       "persistentUuid": "8317bca6-edf6-4f90-aad3-a4aafe6d0316",
       "width": 300,
-      "x": 771,
-      "y": -315,
+      "x": 778,
+      "y": -309,
       "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
@@ -8767,8 +8767,8 @@
       "name": "Platform6",
       "persistentUuid": "6c013604-5cc7-439e-b4b1-c0993cafb44b",
       "width": 128,
-      "x": 1037,
-      "y": -192,
+      "x": 1029,
+      "y": -177,
       "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
@@ -8799,8 +8799,8 @@
       "name": "bgr",
       "persistentUuid": "5c694f72-a674-49c8-899b-adc41c0ae07f",
       "width": 419,
-      "x": 1042,
-      "y": -553,
+      "x": 1016,
+      "y": -554,
       "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
@@ -8815,57 +8815,9 @@
       "name": "bgr",
       "persistentUuid": "41ac2db0-7669-4659-b406-8406c821f56f",
       "width": 360,
-      "x": 888,
-      "y": -544,
+      "x": 849,
+      "y": -556,
       "zOrder": 54,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 296,
-      "customSize": true,
-      "depth": 1,
-      "height": 121,
-      "layer": "",
-      "name": "rockss",
-      "persistentUuid": "43c0d248-6325-4cf6-bc22-bea4a19816c1",
-      "width": 122,
-      "x": 1134,
-      "y": -441,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 296,
-      "customSize": true,
-      "depth": 1,
-      "height": 121,
-      "layer": "",
-      "name": "rockss",
-      "persistentUuid": "e29f48fa-ef40-47d3-be7f-c95261b2a26f",
-      "width": 122,
-      "x": 916,
-      "y": -501,
-      "zOrder": 48,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 296,
-      "customSize": true,
-      "depth": 1,
-      "height": 105,
-      "layer": "",
-      "name": "rockss",
-      "persistentUuid": "a9bc098f-0a87-4277-a741-ceceb135e2e2",
-      "width": 106,
-      "x": 981,
-      "y": -489,
-      "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -8890,13 +8842,13 @@
       "angle": 296,
       "customSize": true,
       "depth": 1,
-      "height": 142,
+      "height": 138,
       "layer": "",
       "name": "rockss",
       "persistentUuid": "3aa036fd-af47-4f8e-8dc2-c8e405dfb3bd",
-      "width": 143,
-      "x": 1381,
-      "y": -228,
+      "width": 139,
+      "x": 1366,
+      "y": -248,
       "zOrder": 48,
       "numberProperties": [],
       "stringProperties": [],
@@ -8911,8 +8863,8 @@
       "name": "NewSprite9",
       "persistentUuid": "46b182ee-fca9-40c8-b441-5f4fb6a0ac7b",
       "width": 386,
-      "x": 1557,
-      "y": -450,
+      "x": 1830,
+      "y": -248,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -8921,14 +8873,14 @@
     {
       "angle": 22,
       "customSize": true,
-      "depth": 2,
-      "height": 472,
+      "depth": 1,
+      "height": 301,
       "layer": "waterfall",
       "name": "NewSprite9",
       "persistentUuid": "decc697f-8fc8-4b67-98cc-bdffcedda66d",
-      "width": 649,
-      "x": 1386,
-      "y": -854,
+      "width": 414,
+      "x": 1175,
+      "y": -1016,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -8943,8 +8895,8 @@
       "name": "bgr",
       "persistentUuid": "923fc7b6-42d2-4423-a876-4e59ef4121f1",
       "width": 419,
-      "x": 874,
-      "y": -734,
+      "x": 900,
+      "y": -733,
       "zOrder": 54,
       "numberProperties": [],
       "stringProperties": [],
@@ -8962,6 +8914,550 @@
       "x": 967,
       "y": -828,
       "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 296,
+      "customSize": true,
+      "depth": 1,
+      "height": 130,
+      "layer": "",
+      "name": "rockss",
+      "persistentUuid": "488cbd66-100b-4974-a2fe-d64725af39d7",
+      "width": 131,
+      "x": 1302,
+      "y": -225,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 296,
+      "customSize": true,
+      "depth": 1,
+      "height": 130,
+      "layer": "",
+      "name": "rockss",
+      "persistentUuid": "cdc5c98f-73db-4748-aa55-39eb77e00cf6",
+      "width": 131,
+      "x": 1180,
+      "y": -226,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 296,
+      "customSize": true,
+      "depth": 1,
+      "height": 130,
+      "layer": "",
+      "name": "rockss",
+      "persistentUuid": "ec491d4b-0b1d-4f7b-838b-edb71932265d",
+      "width": 131,
+      "x": 1243,
+      "y": -228,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "094c5e7b-eb0e-4caf-88a6-904ce99d4219",
+      "width": 32,
+      "x": 1207,
+      "y": -15,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "f4ba0874-ed65-4afc-9725-b74ed9197fb9",
+      "width": 32,
+      "x": 1209,
+      "y": -46,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "dc632c98-a994-4adc-b389-dddd993d9c3a",
+      "width": 32,
+      "x": 1212,
+      "y": -78,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "8f7f3209-328e-4a29-82e9-a8407e6437c6",
+      "width": 32,
+      "x": 1215,
+      "y": -109,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "d7ffdd31-f5c3-4401-ba45-2839dfbd306f",
+      "width": 32,
+      "x": 1218,
+      "y": -141,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "90a16302-9937-44e0-9573-a2415c33154f",
+      "width": 32,
+      "x": 1206,
+      "y": 17,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 514,
+      "layer": "backrocks",
+      "name": "bgr",
+      "persistentUuid": "e18e0f28-ce87-4ba6-9abb-28bd9d34fda7",
+      "width": 453,
+      "x": 382,
+      "y": 1,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 85,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "70691ba7-311e-427e-8857-4712198a7359",
+      "width": 81,
+      "x": 990,
+      "y": -503,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 4,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "backrocks",
+      "name": "NewSprite13",
+      "persistentUuid": "5ae461cb-5a70-45df-a090-94e8a9cc2348",
+      "width": 203,
+      "x": 1318,
+      "y": -354,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 63,
+      "customSize": true,
+      "depth": 1,
+      "height": 188,
+      "layer": "backrocks",
+      "name": "NewSprite13",
+      "persistentUuid": "0322dde7-1968-4f56-becb-a5fe9819719d",
+      "width": 203,
+      "x": 1253,
+      "y": -293,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "4bb11186-5ef7-4310-8b56-f11c56a82d26",
+      "width": 81,
+      "x": 1047,
+      "y": -467,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 342,
+      "customSize": true,
+      "depth": 1,
+      "height": 73,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "400ee208-549f-438a-b954-59b2143c5f8a",
+      "width": 81,
+      "x": 919,
+      "y": -504,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 117,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "b3a22da4-ddac-4911-a9ba-e789fcab73cd",
+      "width": 32,
+      "x": 1395,
+      "y": -449,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 117,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "6da0a7c6-c9b0-4595-8144-e587e1e7a3cf",
+      "width": 32,
+      "x": 1281,
+      "y": -509,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 117,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "9757b373-a2a0-409f-ba32-414892f2c4d5",
+      "width": 32,
+      "x": 1367,
+      "y": -465,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 117,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "53069075-8ff7-409f-9304-e5961ddba204",
+      "width": 32,
+      "x": 1338,
+      "y": -479,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 117,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "NewSprite8",
+      "persistentUuid": "7fd261aa-38cd-403d-9bc3-e7f825dae69d",
+      "width": 32,
+      "x": 1309,
+      "y": -493,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 85,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "1d11e1ef-c6f8-45a8-a4f6-b2c40fba7862",
+      "width": 81,
+      "x": 1261,
+      "y": -565,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 85,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "99005a4c-5564-45be-9785-a6fca7687835",
+      "width": 81,
+      "x": 1477,
+      "y": -227,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 63,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "6633f6d3-9476-4595-bc7e-20c0417b4e9a",
+      "width": 64,
+      "x": 1539,
+      "y": -242,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 33,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "00c34649-6554-445e-8a00-97e0a0bd692f",
+      "width": 41,
+      "x": 1594,
+      "y": -277,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 123,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "5e4c566b-b7ec-4d68-a7bd-cc02176a952f",
+      "width": 49,
+      "x": 1622,
+      "y": -266,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 50,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "80f59d19-ae88-4040-af67-ee7a459f5049",
+      "width": 49,
+      "x": 1783,
+      "y": -282,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 204,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "03829b50-793a-4c8d-933f-b0a06e88ecf5",
+      "width": 55,
+      "x": 1610,
+      "y": -224,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "7f2a3962-5656-4f24-8db4-08241271aafe",
+      "width": 55,
+      "x": 1611,
+      "y": -171,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "45d8b176-8341-459f-b811-92dabb47586f",
+      "width": 55,
+      "x": 1612,
+      "y": -98,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "eb8e9202-028f-4682-8c57-cdb4c2d52a8d",
+      "width": 55,
+      "x": 1615,
+      "y": -20,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "7f455a9b-d277-4939-a8ee-3da43e43a9a6",
+      "width": 55,
+      "x": 1619,
+      "y": 58,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 200,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "d266c25a-9ec2-42da-bde2-511fec627b61",
+      "width": 55,
+      "x": 1596,
+      "y": 118,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 194,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "8e335a43-47eb-4f9a-b428-8ae7cd8eb6df",
+      "width": 55,
+      "x": 1574,
+      "y": 191,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 194,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "layer": "",
+      "name": "rocksaaa",
+      "persistentUuid": "3f832cb4-a6e5-4ed2-a00d-615c31bbed25",
+      "width": 55,
+      "x": 1558,
+      "y": 257,
+      "zOrder": 60,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -9175,6 +9671,174 @@
           ]
         },
         {
+          "name": "idleswim02",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_skin_grayidle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_skin_grayidle2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "idle swim03",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_sprite_horns_idle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_sprite_horns_idle2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "MOVEswim",
           "useMultipleDirections": false,
           "directions": [
@@ -9221,6 +9885,174 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\player\\main\\losos_sprite_swim2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moveswim02",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_skin_gray_swim.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_skin_gray_swim2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "moveswim3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_horna_swim.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_horna_swim2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -9653,6 +10485,486 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\player\\main\\Losos_swim_up4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sad2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lososskin_gray_flail4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lososskin_gray_flai2l4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sad3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_horns_flail3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "losos_horns_flai2l4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "up02",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Losos_skin_gray_swim_up.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Losos_skin_gray_swim_up2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Losos_skin_gray_swim_up3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Losos_skin_gray_swim_up4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "up03",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Losos_horns_swim_up.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Losos_horns_swim_up2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Losos_horns_swim_up3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 9
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Losos_horns_swim_up4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -13450,6 +14762,350 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "rocksaaa",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rocksss2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2.5,
+                        "y": 82
+                      },
+                      {
+                        "x": 1,
+                        "y": 53.5
+                      },
+                      {
+                        "x": 14.5,
+                        "y": 24.5
+                      },
+                      {
+                        "x": 26,
+                        "y": 15
+                      },
+                      {
+                        "x": 65.5,
+                        "y": 4
+                      },
+                      {
+                        "x": 97,
+                        "y": 12.5
+                      },
+                      {
+                        "x": 110.5,
+                        "y": 20.5
+                      },
+                      {
+                        "x": 121.5,
+                        "y": 36.5
+                      },
+                      {
+                        "x": 128,
+                        "y": 51.5
+                      },
+                      {
+                        "x": 125,
+                        "y": 82
+                      },
+                      {
+                        "x": 119,
+                        "y": 104.5
+                      },
+                      {
+                        "x": 98.5,
+                        "y": 122.5
+                      },
+                      {
+                        "x": 59.5,
+                        "y": 125.5
+                      },
+                      {
+                        "x": 33,
+                        "y": 121.5
+                      },
+                      {
+                        "x": 13,
+                        "y": 106.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite13",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rock_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 20
+                      },
+                      {
+                        "x": 77,
+                        "y": 20
+                      },
+                      {
+                        "x": 77,
+                        "y": 99
+                      },
+                      {
+                        "x": 16,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite14",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pink_rock_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 20
+                      },
+                      {
+                        "x": 77,
+                        "y": 20
+                      },
+                      {
+                        "x": 77,
+                        "y": 99
+                      },
+                      {
+                        "x": 16,
+                        "y": 99
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite15",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rock_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 7
+                      },
+                      {
+                        "x": 86,
+                        "y": 7
+                      },
+                      {
+                        "x": 86,
+                        "y": 88
+                      },
+                      {
+                        "x": 9,
+                        "y": 88
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite16",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pink_rock_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 7
+                      },
+                      {
+                        "x": 86,
+                        "y": 7
+                      },
+                      {
+                        "x": 86,
+                        "y": 88
+                      },
+                      {
+                        "x": 9,
+                        "y": 88
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -13524,6 +15180,21 @@
           },
           {
             "objectName": "spikes"
+          },
+          {
+            "objectName": "rocksaaa"
+          },
+          {
+            "objectName": "NewSprite13"
+          },
+          {
+            "objectName": "NewSprite14"
+          },
+          {
+            "objectName": "NewSprite15"
+          },
+          {
+            "objectName": "NewSprite16"
           }
         ]
       },
@@ -14228,6 +15899,16 @@
                 "rockss",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Player",
+                "rocksaaa",
+                ""
+              ]
             }
           ]
         },
@@ -14236,6 +15917,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Movement Animations ZROBIC CONDITIONSSSSSS",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14526,6 +16208,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "platform",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14882,6 +16565,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "woda",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -14951,6 +16635,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Death",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -15179,6 +16864,82 @@
               },
               "parameters": [
                 "Player",
+                "jajko2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Skin",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "jajko2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "jajko3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Skin",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "jajko3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
                 "nowy_level",
                 "",
                 "",
@@ -15201,6 +16962,69 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "music",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "menu3.wav",
+            "1",
+            "yes",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Video::Ended"
+          },
+          "parameters": [
+            "NewVideo"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -15359,9 +17183,24 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

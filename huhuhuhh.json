@@ -1157,6 +1157,378 @@
         "name": "Zjadzka_bunny1.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rocksss2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rocksss2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rock_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pink_rock_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pink_rock_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rock_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pink_rock_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pink_rock_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Losos_skin_gray_swim_up4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Losos_skin_gray_swim_up4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Losos_skin_gray_swim_up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Losos_skin_gray_swim_up3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Losos_skin_gray_swim_up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Losos_skin_gray_swim_up2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Losos_skin_gray_swim_up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Losos_skin_gray_swim_up.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_skin_grayidle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_skin_grayidle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_skin_grayidle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_skin_grayidle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "menu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_sprite_horns_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_sprite_horns_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_sprite_horns_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_sprite_horns_idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_skin_gray_swim2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_skin_gray_swim2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_skin_gray_swim.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_skin_gray_swim.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_horna_swim2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_horna_swim2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_horna_swim.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_horna_swim.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Losos_horns_swim_up4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Losos_horns_swim_up4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Losos_horns_swim_up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Losos_horns_swim_up3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Losos_horns_swim_up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Losos_horns_swim_up2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Losos_horns_swim_up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Losos_horns_swim_up.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_horns_flail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_horns_flail.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_horns_flai2l.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_horns_flai2l.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lososskin_gray_flail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lososskin_gray_flail.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lososskin_gray_flai2l.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lososskin_gray_flai2l.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lososskin_gray_flail2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lososskin_gray_flail2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lososskin_gray_flai2l2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lososskin_gray_flai2l2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lososskin_gray_flail3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lososskin_gray_flail3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lososskin_gray_flai2l3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lososskin_gray_flai2l3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "C:/Users/gamejam/Downloads/lososskin_gray_flail.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:\\Users\\gamejam\\Downloads\\lososskin_gray_flail.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "C:/Users/gamejam/Downloads/lososskin_gray_flai2l.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:\\Users\\gamejam\\Downloads\\lososskin_gray_flai2l.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_horns_flail2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_horns_flail2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_horns_flai2l2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_horns_flai2l2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_horns_flail3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_horns_flail3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_horns_flai2l3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_horns_flai2l3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "losos_horns_flai2l4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "losos_horns_flai2l4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lososskin_gray_flail4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lososskin_gray_flail4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lososskin_gray_flai2l4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lososskin_gray_flai2l4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "menu2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "menu3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "menu3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

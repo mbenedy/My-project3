@@ -1529,6 +1529,34 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "Cutscenka1DZWIEK.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Cutscenka1DZWIEK.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "EndingDZWIEK.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "EndingDZWIEK.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "Cutscenka1DZWIEK2.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Cutscenka1DZWIEK2.mp4",
+        "userAdded": true
+      },
+      {
+        "file": "EndingDZWIEK2.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "EndingDZWIEK2.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -18,11 +18,18 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.295291655123614,
+    "zoomFactor": 1.3389693172845623,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "SKINYYY",
+      "type": "string",
+      "value": ""
+    }
+  ],
   "instances": [
     {
       "angle": 0,
@@ -616,6 +623,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "NewSprite4",
+      "persistentUuid": "4ce9eeaf-f8fb-4ab3-9320-f42740c06148",
+      "width": 0,
+      "x": 187,
+      "y": 78,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -704,24 +726,24 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1000,
+          "gravity": 200,
+          "jumpSpeed": 120,
+          "jumpSustainTime": 0.5,
+          "maxFallingSpeed": 400,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "xGrabTolerance": 10,
           "canGoDownFromJumpthru": false,
           "canGrabWithoutMoving": false,
           "deceleration": 1000,
-          "gravity": 300,
           "ignoreDefaultControls": false,
-          "jumpSpeed": 100,
-          "jumpSustainTime": 0.5,
           "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 120,
           "maxSpeed": 250,
           "yGrabOffset": 0,
           "canGrabPlatforms": false,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "xGrabTolerance": 10
+          "useLegacyTrajectory": false
         }
       ],
       "animations": [
@@ -1936,6 +1958,74 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 11,
+                        "y": 4
+                      },
+                      {
+                        "x": 48,
+                        "y": 4
+                      },
+                      {
+                        "x": 48,
+                        "y": 44
+                      },
+                      {
+                        "x": 11,
+                        "y": 44
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1982,6 +2072,9 @@
       },
       {
         "objectName": "NewTiledSprite4"
+      },
+      {
+        "objectName": "NewSprite4"
       }
     ]
   },
@@ -2014,6 +2107,28 @@
               },
               "parameters": [
                 "NewVideo"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "NewVideo",
+                "=",
+                "Player.X()",
+                "=",
+                "Player.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Skin",
+                "=",
+                "1"
               ]
             }
           ]
@@ -2148,7 +2263,7 @@
               "parameters": [
                 "",
                 "=",
-                "Player.Y()",
+                "lerp(CameraY(), Player.Y(), 0.05)",
                 "",
                 ""
               ]
@@ -2160,7 +2275,7 @@
               "parameters": [
                 "",
                 "=",
-                "Player.Y()",
+                "lerp(CameraY(), Player.Y(), 0.05)",
                 "\"waterfall\"",
                 ""
               ]
@@ -2420,16 +2535,34 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"sad\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Skin",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"sad\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -2450,16 +2583,34 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Animation",
-                    "=",
-                    "\"up\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Skin",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"up\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -2495,16 +2646,34 @@
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"MOVEswim\""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Skin",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"MOVEswim\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -2523,16 +2692,34 @@
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation",
-                        "=",
-                        "\"IDLEswim\""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Skin",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation",
+                            "=",
+                            "\"IDLEswim\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -2550,6 +2737,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "platform",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2649,6 +2837,13 @@
                 "100"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
           ]
         }
       ],
@@ -2659,6 +2854,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "woda",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2728,6 +2924,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Death",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2856,6 +3053,44 @@
             "Animation",
             "=",
             "\"NewSprite3\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "NewSprite4",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Skin",
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "NewSprite4",
+            ""
           ]
         }
       ]
@@ -3108,6 +3343,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     }
   ]
 }

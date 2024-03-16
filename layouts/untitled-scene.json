@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.3389693172845623,
+    "zoomFactor": 0.7130377630690533,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -3286,7 +3286,7 @@
       "isLocked": false,
       "name": "cutscene",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "menu",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -529,6 +529,51 @@
         "name": "assets\\NewSprite8.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/gametitle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\gametitle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/play1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\play1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/play2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\play2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/quit21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\quit21.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/quit22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\quit22.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -772,6 +817,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/objectstack"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/sticker"

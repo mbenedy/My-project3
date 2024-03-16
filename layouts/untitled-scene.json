@@ -3739,7 +3739,7 @@
       "isLocked": false,
       "name": "cutscene",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

@@ -306,6 +306,13 @@
         "name": "assets\\screen\\main_menu.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/cutscenes/Cutscena1.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "assets\\cutscenes\\Cutscena1.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []

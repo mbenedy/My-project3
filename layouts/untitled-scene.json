@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9934433498259769,
+    "zoomFactor": 0.5290357402156947,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -526,8 +526,8 @@
       "name": "NewVideo",
       "persistentUuid": "cb2f36cf-7b55-4dbc-89e1-084b3f26d43a",
       "width": 480,
-      "x": 0,
-      "y": 0,
+      "x": 684,
+      "y": 88,
       "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
@@ -544,22 +544,6 @@
       "x": 324,
       "y": 97,
       "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 53,
-      "layer": "",
-      "name": "triggerbox",
-      "persistentUuid": "257852ed-d167-4275-b8b4-aa6dd30edfe8",
-      "width": 14,
-      "x": 307,
-      "y": 75,
-      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -683,6 +667,85 @@
       "x": 0,
       "y": 0,
       "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 38,
+      "layer": "HITBOXXYXYXYXYYYYYYYYY",
+      "name": "talk",
+      "persistentUuid": "9a8ccdcb-adeb-4d88-8029-ef875321a148",
+      "width": 17,
+      "x": 310,
+      "y": 100,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "HITBOXXYXYXYXYYYYYYYYY",
+      "name": "death",
+      "persistentUuid": "85fd9794-cc04-4916-ad85-74393d065133",
+      "width": 23,
+      "x": 446,
+      "y": 187,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "HITBOXXYXYXYXYYYYYYYYY",
+      "name": "death",
+      "persistentUuid": "7c25071a-aed0-4278-aafc-0f85da58fee0",
+      "width": 505,
+      "x": -13,
+      "y": 262,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "HITBOXXYXYXYXYYYYYYYYY",
+      "name": "cutscene_level_or_sth",
+      "persistentUuid": "0b7be1c7-8d0f-4eed-baa2-8d901b8c29b6",
+      "width": 0,
+      "x": 278,
+      "y": -7,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 271,
+      "layer": "HITBOXXYXYXYXYYYYYYYYY",
+      "name": "NewVideo2",
+      "persistentUuid": "6ab62cc1-61e4-486c-8c0c-88370dabd80c",
+      "width": 480,
+      "x": 81,
+      "y": 446,
+      "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1492,7 +1555,7 @@
         },
         {
           "name": "Platform",
-          "platformType": "NormalPlatform",
+          "platformType": "Ladder",
           "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0,
           "canBeGrabbed": true
@@ -1733,7 +1796,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "triggerbox",
+      "name": "talk",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1751,7 +1814,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "NewSprite11",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2172,6 +2235,142 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "death",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "cutscene_level_or_sth",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewVideo2",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "assets\\cutscenes\\ENDING1.mp4"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2190,6 +2389,9 @@
         "objectName": "water"
       },
       {
+        "objectName": "NewVideo2"
+      },
+      {
         "objectName": "Waterfall"
       },
       {
@@ -2205,7 +2407,18 @@
         "objectName": "NewSprite3"
       },
       {
-        "objectName": "triggerbox"
+        "folderName": "triggerboxes",
+        "children": [
+          {
+            "objectName": "death"
+          },
+          {
+            "objectName": "talk"
+          },
+          {
+            "objectName": "cutscene_level_or_sth"
+          }
+        ]
       },
       {
         "objectName": "NewTiledSprite2"
@@ -2293,6 +2506,16 @@
                 "Skin",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "yes"
               ]
             }
           ]
@@ -2441,6 +2664,18 @@
                 "",
                 "NewSprite5",
                 "Player.X()",
+                "\"HITBOXXYXYXYXYYYYYYYYY\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "NewSprite5",
+                "Player.X()",
                 "",
                 ""
               ]
@@ -2493,6 +2728,18 @@
                 "",
                 "=",
                 "Player.X()",
+                "\"HITBOXXYXYXYXYYYYYYYYY\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.X()",
                 "\"waterfall\"",
                 ""
               ]
@@ -2506,6 +2753,18 @@
                 "=",
                 "lerp(CameraY(), Player.Y(), 0.05)",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), Player.Y(), 0.05)",
+                "\"HITBOXXYXYXYXYYYYYYYYY\"",
                 ""
               ]
             },
@@ -3182,7 +3441,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Death",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3192,12 +3450,14 @@
           "conditions": [
             {
               "type": {
-                "value": "PosY"
+                "value": "CollisionNP"
               },
               "parameters": [
                 "Player",
-                ">",
-                "270"
+                "death",
+                "270",
+                "",
+                ""
               ]
             }
           ],
@@ -3274,7 +3534,7 @@
               },
               "parameters": [
                 "Player",
-                "triggerbox",
+                "talk",
                 "",
                 "",
                 ""
@@ -3309,6 +3569,55 @@
                 "Animation",
                 "=",
                 "\"NewSprite3\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "cutscene_level_or_sth",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "NewVideo2",
+                "=",
+                "CameraX()-240",
+                "=",
+                "CameraY() -135"
+              ]
+            },
+            {
+              "type": {
+                "value": "Video::Play"
+              },
+              "parameters": [
+                "NewVideo2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                ""
               ]
             }
           ]
@@ -3675,6 +3984,39 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "HITBOXXYXYXYXYYYYYYYYY",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

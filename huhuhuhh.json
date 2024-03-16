@@ -381,7 +381,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
         "name": "NewSprite7",
         "smoothed": false,
         "userAdded": true
@@ -582,6 +582,31 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite9",
         "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite11.png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/cutscenes/ENDING1.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "assets\\cutscenes\\ENDING1.mp4",
         "userAdded": true
       }
     ],

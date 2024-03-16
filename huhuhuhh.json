@@ -1557,6 +1557,60 @@
         "metadata": "",
         "name": "EndingDZWIEK2.mp4",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "watwrdrabina1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "watwrdrabina1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "watwrdrabina2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "watwrdrabina2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "watwrdrabina3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "watwrdrabina3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "watwrdrabina4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "watwrdrabina4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "watwrdrabina5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "watwrdrabina5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pasekPUSTY3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pasekPUSTY3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -385,6 +385,42 @@
         "name": "NewSprite7",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/restart1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\restart1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/restart2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\restart2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/guit1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\guit1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen/guit2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen\\guit2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

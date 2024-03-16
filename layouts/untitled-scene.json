@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.870023285985737,
+    "zoomFactor": 0.7876290101673833,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -284,6 +284,294 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "8c06cb4e-9768-450d-b2dd-ca5aff5b3c56",
+      "width": 0,
+      "x": 377,
+      "y": -144,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "41f3567b-4902-41be-81a4-e53391a98f4f",
+      "width": 0,
+      "x": 256,
+      "y": -158,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "988f3a7b-ca10-496b-a426-a543718b56d3",
+      "width": 0,
+      "x": 318,
+      "y": -104,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "793fc0ec-0662-4e52-b112-1e61bc772a85",
+      "width": 0,
+      "x": 417,
+      "y": -27,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "46dea298-16a4-41cf-9e41-f79c444d3dce",
+      "width": 0,
+      "x": 213,
+      "y": -266,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "6a2511ce-db0b-40ea-8e81-31f262863735",
+      "width": 0,
+      "x": 306,
+      "y": -270,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 274,
+      "layer": "waterfall",
+      "name": "Waterfall",
+      "persistentUuid": "7887c533-e82f-4bbc-a42c-6d8b2a66578c",
+      "width": 32,
+      "x": 452,
+      "y": -148,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 70,
+      "layer": "waterfall",
+      "name": "Waterfall",
+      "persistentUuid": "2648d9c2-b4bf-4420-b430-61c7a077799c",
+      "width": 39,
+      "x": 312,
+      "y": -223,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "waterfall",
+      "name": "Platform",
+      "persistentUuid": "b73b5a60-1ef9-4c9c-ae05-84fd13dc40f0",
+      "width": 0,
+      "x": 273,
+      "y": -342,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "waterfall",
+      "name": "Platform",
+      "persistentUuid": "48778b0c-9775-4a19-9789-444592af0e4b",
+      "width": 0,
+      "x": 419,
+      "y": -226,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "fdb0803d-7a93-4277-a989-ff94be441820",
+      "width": 0,
+      "x": 416,
+      "y": -176,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "50c5f69d-3ac3-49b1-9cf2-1417aa69fcd9",
+      "width": 0,
+      "x": 429,
+      "y": -341,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "f23aa6dd-4f3b-482a-b772-3da83c02ad86",
+      "width": 0,
+      "x": 204,
+      "y": -254,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "8945f408-963d-4ebe-a6ad-72228c1ad01e",
+      "width": 0,
+      "x": 192,
+      "y": -420,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 70,
+      "layer": "waterfall",
+      "name": "Waterfall",
+      "persistentUuid": "81ebdf3f-54f3-4b56-95a8-d7f618913bdf",
+      "width": 39,
+      "x": 198,
+      "y": -373,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "bb54fe51-77f9-417f-b5f9-e769d9b00798",
+      "width": 0,
+      "x": 343,
+      "y": -361,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "04356b56-61d7-4733-ae54-2266d42d64ae",
+      "width": 0,
+      "x": 245,
+      "y": -468,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "waterfall",
+      "name": "Platform",
+      "persistentUuid": "e45af167-ad93-4a94-a446-704829fa0e0e",
+      "width": 0,
+      "x": 385,
+      "y": -443,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "cebafba2-62a4-4d70-8f53-cd368c24a9ec",
+      "width": 0,
+      "x": 382,
+      "y": -393,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -372,21 +660,21 @@
       "effects": [],
       "behaviors": [
         {
-          "canGoDownFromJumpthru": false,
-          "canGrabWithoutMoving": false,
-          "deceleration": 1500,
-          "jumpSustainTime": 0.5,
-          "maxFallingSpeed": 120,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "yGrabOffset": 0,
-          "acceleration": 1500,
-          "canGrabPlatforms": false,
+          "acceleration": 1000,
+          "canGoDownFromJumpthru": false,
+          "canGrabWithoutMoving": false,
+          "deceleration": 1000,
           "gravity": 300,
-          "ignoreDefaultControls": true,
+          "ignoreDefaultControls": false,
           "jumpSpeed": 100,
+          "jumpSustainTime": 0.5,
           "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 120,
           "maxSpeed": 250,
+          "yGrabOffset": 0,
+          "canGrabPlatforms": false,
           "slopeMaxAngle": 60,
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10
@@ -1215,10 +1503,10 @@
       "effects": [],
       "behaviors": [
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "Ladder",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Ladder",
           "yGrabOffset": 0
         }
       ]
@@ -1288,12 +1576,36 @@
           "actions": [
             {
               "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), Player.X(), 0.5)",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), Player.X(), 0.5)",
+                "\"waterfall\"",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetCameraCenterY"
               },
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraY(), Player.Y(), 0.01)",
+                "lerp(CameraY(), Player.Y(), 0.04)",
                 "",
                 ""
               ]
@@ -1305,7 +1617,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraY(), Player.Y(), 0.01)",
+                "lerp(CameraY(), Player.Y(), 0.04)",
                 "\"waterfall\"",
                 ""
               ]
@@ -1419,12 +1731,11 @@
           "actions": [
             {
               "type": {
-                "value": "PlatformBehavior::SimulateControl"
+                "value": "PlatformBehavior::SimulateDownKey"
               },
               "parameters": [
                 "Player",
-                "PlatformerObject",
-                "\"Down\""
+                "PlatformerObject"
               ]
             }
           ]
@@ -1627,7 +1938,7 @@
                 "Player",
                 "PlatformerObject",
                 "=",
-                "150"
+                "200"
               ]
             }
           ]
@@ -1663,46 +1974,11 @@
           "actions": [
             {
               "type": {
-                "value": "PlatformBehavior::Gravity"
+                "value": "PlatformBehavior::SimulateLadderKey"
               },
               "parameters": [
                 "Player",
-                "PlatformerObject",
-                "=",
-                "150"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::Acceleration"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "=",
-                "1500"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::Deceleration"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "=",
-                "1500"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::LadderClimbingSpeed"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "=",
-                "3"
+                "PlatformerObject"
               ]
             }
           ]
@@ -1727,54 +2003,14 @@
           "actions": [
             {
               "type": {
-                "value": "PlatformBehavior::Gravity"
+                "value": "PlatformBehavior::SimulateReleaseLadderKey"
               },
               "parameters": [
                 "Player",
-                "PlatformerObject",
-                "=",
-                "300"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::Acceleration"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "=",
-                "700"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::Deceleration"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "=",
-                "1000"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::LadderClimbingSpeed"
-              },
-              "parameters": [
-                "Player",
-                "PlatformerObject",
-                "=",
-                "150"
+                "PlatformerObject"
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "parameters": []

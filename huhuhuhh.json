@@ -68,7 +68,7 @@
         "alwaysLoaded": false,
         "file": "111.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"111.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "111.png",
         "smoothed": false,
         "userAdded": false
@@ -617,6 +617,141 @@
         "name": "NewSprite12",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/111.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "111.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/backgrounds/waterfall_rocks.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\backgrounds\\waterfall_rocks.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wfanimation1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wfanimation1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wfanimation2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wfanimation2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wfanimation3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wfanimation3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wfanimation4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wfanimation4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "wfanimation5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "wfanimation5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "texture1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "texture1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "color.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "color.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "water.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "piana1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "piana1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "piana2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "piana2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "piana3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "piana3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "piana4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "piana4.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

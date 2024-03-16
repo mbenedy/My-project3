@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.4107619739084953,
+    "zoomFactor": 1.1184906087357536,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -355,7 +355,7 @@
           },
           "parameters": [
             "",
-            "\"Untitled scene\"",
+            "\"MAIN LEVEL\"",
             ""
           ]
         }

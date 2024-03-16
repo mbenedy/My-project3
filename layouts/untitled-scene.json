@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1726229638177845,
+    "zoomFactor": 1.295291655123614,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -601,6 +601,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "rock1",
+      "persistentUuid": "ddf114f2-86dd-4a7e-accf-ef0c82285cce",
+      "width": 0,
+      "x": 284,
+      "y": 174,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -632,7 +647,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "111.png",
+                  "image": "assets\\enviro\\platforms\\rock1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -648,20 +663,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 2,
+                        "y": 24
                       },
                       {
-                        "x": 32,
-                        "y": 0
+                        "x": 62,
+                        "y": 24
                       },
                       {
-                        "x": 32,
-                        "y": 17
+                        "x": 62,
+                        "y": 51
                       },
                       {
-                        "x": 0,
-                        "y": 17
+                        "x": 2,
+                        "y": 51
                       }
                     ]
                   ]
@@ -1853,6 +1868,74 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "rock1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "Jumpthru",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\enviro\\platforms\\rock2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 17
+                      },
+                      {
+                        "x": 61,
+                        "y": 17
+                      },
+                      {
+                        "x": 61,
+                        "y": 52
+                      },
+                      {
+                        "x": 7,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1860,6 +1943,9 @@
     "children": [
       {
         "objectName": "Platform"
+      },
+      {
+        "objectName": "rock1"
       },
       {
         "objectName": "Player"
@@ -2054,6 +2140,30 @@
                 "\"waterfall\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.Y()",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Player.Y()",
+                "\"waterfall\"",
+                ""
+              ]
             }
           ]
         },
@@ -2095,7 +2205,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2509,6 +2618,35 @@
                 "PlatformerObject",
                 "=",
                 "200"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "\"Up\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::JumpSpeed"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject",
+                "=",
+                "100"
               ]
             }
           ]

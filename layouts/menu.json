@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.829859984652055,
+    "zoomFactor": 1.2354964865370632,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -285,6 +285,210 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "KURSOR",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "turn_left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\main\\losos_sprite_turn_left5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 8
+                      },
+                      {
+                        "x": 31,
+                        "y": 22
+                      },
+                      {
+                        "x": 2,
+                        "y": 22
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -298,6 +502,9 @@
       },
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "KURSOR"
       }
     ]
   },
@@ -350,6 +557,59 @@
         {
           "type": {
             "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "KURSOR",
+            "MouseX()",
+            "MouseY()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "KURSOR",
+            "=",
+            "MouseX()",
+            "=",
+            "MouseY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "CacheSouris"
           },
           "parameters": [
             ""

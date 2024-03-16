@@ -448,6 +448,69 @@
         "name": "assets\\enviro\\backgrounds\\foreground.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/platforms/rock1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\platforms\\rock1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/platforms/rock2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\platforms\\rock2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/platforms/rock3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\platforms\\rock3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/platforms/rock4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\platforms\\rock4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/platforms/rock5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\platforms\\rock5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/platforms/rock6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\platforms\\rock6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/enviro/platforms/rock7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\enviro\\platforms\\rock7.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

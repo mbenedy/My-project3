@@ -95,7 +95,7 @@
         "alwaysLoaded": false,
         "file": "waterfall1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"waterfall1.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "waterfall1.png",
         "smoothed": false,
         "userAdded": true
@@ -750,6 +750,411 @@
         "kind": "image",
         "metadata": "",
         "name": "piana4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rock2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rock3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rock4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rock5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rock6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rock7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "eel_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "eel_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "eel_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "eel_idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fish_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fish_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fish_idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fish_idle.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "perch_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "perch_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "perch_idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "perch_idle1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "malz_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "malz_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "malz_idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "malz_idle1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rocksss1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rocksss1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_horn7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_horn7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_horn7.1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_horn7.1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_horn6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_horn6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_horn5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_horn5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_horn4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_horn4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_horn3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_horn3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_horn2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_horn2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_horn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_horn.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_gray8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_gray8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_gray7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_gray7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_gray6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_gray6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_gray5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_gray5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_gray4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_gray4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_gray3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_gray3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_gray2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_gray2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_gray1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_gray1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spikes1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spikes1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "texture2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "texture2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Krab_idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Krab_idle2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Krab_idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Krab_idle1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "coralpink1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coralpink1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tablet1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tablet1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_bunny8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_bunny8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_bunny7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_bunny7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_bunny6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_bunny6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_bunny5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_bunny5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_bunny4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_bunny4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_bunny3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_bunny3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_bunny2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_bunny2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Zjadzka_bunny1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Zjadzka_bunny1.png",
         "smoothed": false,
         "userAdded": false
       }
